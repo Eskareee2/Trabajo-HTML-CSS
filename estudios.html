@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estudios - IES El Caminás</title>
+    <link rel="stylesheet" href="estilos.css">
+
+        <link rel="icon" type="image/x-icon" href="icono.ico">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="estudios.html">Oferta Educativa</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="horario">
+    <main>
+        <h2>Horario Desarrollo de Aplicaciones Multiplataforma</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>14:05 - 15:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Tutoría primero</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>15:00 - 15:55</td>
+                    <td>Itinerario Personal</td>
+                    <td>Itinerario Personal</td>
+                    <td>Lenguaje de marcas</td>
+                   <td rowspan="3">Bases de datos</td>
+                    <td rowspan="2">Sistemas informáticos</td>
+                </tr>
+                <tr>
+                    <td>15:55 - 16:50</td>
+                    <td>Entornos de desarrollo</td>
+                    <td rowspan="2">Bases de datos</td>
+                    <td rowspan="2">Programación</td>
+                </tr>
+                <tr>
+                    <td>16:50 - 17:45</td>
+                    <td>Sistemas informáticos</td>
+                    <td>Proyecto intermodular</td>
+                </tr>
+                <tr>
+                    <td>17:45 - 18:10</td>
+                    <td colspan="5">Recreo</td>
+                </tr>
+                <tr>
+                    <td>18:10 - 19:05</td>
+                    <td rowspan="2">Sistemas informáticos</td>
+                    <td rowspan="3">Programación</td>
+                    <td>Inglés profesional G</td>
+                    <td>Itinerario personal</td>
+                    <td rowspan="3">Programación</td>
+                </tr>
+                <tr>
+                    <td>19:05 - 20:00</td>
+                    <td rowspan="2">Entornos de desarrollo</td>
+                    <td rowspan="2">Lenguaje de marcas</td>
+                </tr>
+                <tr>
+                    <td>20:00 - 20:55</td>
+                    <td>Inglés profesional G</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Horario Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma - IES El
+                        Caminás 2025-2026</td>
+                </tr>
+            </tfoot>
+        </table>
+        </section>
+
+        <section id="departamentos">
+            <h3>Departamentos</h3>
+            <details>
+                <summary>Departamento de informática</summary>
+                <ul>
+                    <li>ALONSO BARBERAN, VICTOR MANUEL (vm.alonsobarberan@edu.gva.es)</li>
+                    <li>ANDREU PUCHOL, LUIS  (l.andreupuchol@edu.gva.es)</li>
+                    <li>CANOS NEBOT, JOAQUIM (j.canosnebot@edu.gva.es)</li>
+                    <li>GARCIA GARCIA, DIONISIO (d.garciagarcia4@edu.gva.es)</li>
+                    <li>GARCIA MARCOS, CRISTIAN JORGE (cj.garciamarcos@edu.gva.es)</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Departamento de inglés</summary>
+                <ul>
+                    <li>DONZEL SASTRE, MARIA JOSE (mj.donzelsastre@edu.gva.es)</li>
+                    <li>ESCUDER IBAÑEZ, ARANTXA	(a.escuderibanez@edu.gva.es)</li>
+                    <li>GOMEZ ESCOIN, ANAIS BLANCA (ab.gomezescoin@edu.gva.es)</li>
+                    <li>MARTINEZ SANCHIS, ANA MARIA	(am.martinezsanchis@edu.gva.es)</li>
+                </ul>
+            </details>
+        </section>
+
+        <section id="logo">
+            <canvas id="canvasLogo" width="200" height="200" style="border:1px solid #ddd;"></canvas>
+        </section>
+        
+        <section id="derechos">
+            <footer>
+                <p>© 2026 IES El Caminàs - Castellón de la Plana. Todos los derechos reservados.</p>
+            </footer>
+        </section>
+        
+    </main>
+
+    
+
+    <script>
+        const c = document.getElementById("canvasLogo");
+        const ctx = c.getContext("2d");
+        
+        const ancho = c.width;
+        const altoFranja = c.height / 3;
+
+        ctx.fillStyle = "#00bfff";
+        ctx.fillRect(0, 0, ancho, altoFranja);
+
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillRect(0, altoFranja, ancho, altoFranja);
+
+        ctx.fillStyle = "#0ee35c";
+        ctx.fillRect(0, altoFranja * 2, ancho, altoFranja);
+    </script>
+</body>
+
+</html>
