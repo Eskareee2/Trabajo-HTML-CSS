@@ -1,0 +1,18 @@
+[
+    {
+    "id": 1,
+    "titulo": "Nueva Jornada de Puertas Abiertas",
+    "fecha": "2026-04-15",
+    "contenido": "Ven a conocer nuestras instalaciones el próximo miércoles...",
+    "categoria": "Eventos",
+    "importante": true
+    },
+    {
+    "id": 2,
+    "titulo": "Ganadores del Certamen Literario",
+    "fecha": "2026-04-10",
+    "contenido": "Felicitamos a los alumnos de 2º de Bachillerato por sus premios...",
+    "categoria": "Cultura",
+    "importante": false
+    }
+   ]
